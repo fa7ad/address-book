@@ -1,0 +1,23 @@
+{
+  "name": "address-book",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "firebase": "^4.6.2",
+    "material-ui": "^0.19.4",
+    "material-ui-icons": "^1.0.0-beta.17",
+    "mobx": "^3.3.1",
+    "mobx-react": "^4.3.4",
+    "ramda": "^0.25.0",
+    "react": "^16.1.0",
+    "react-dom": "^16.1.0",
+    "react-scripts": "^1.0.17",
+    "typeface-roboto": "^0.0.43"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
