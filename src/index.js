@@ -10,6 +10,8 @@ import getMuiTheme from 'material-ui/styles/getMuiTheme'
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider'
 import baseTheme from 'material-ui/styles/baseThemes/lightBaseTheme'
 
+import { app } from './base'
+
 const getTheme = theme =>
   getMuiTheme(theme, {
     palette: {
